@@ -1,6 +1,11 @@
 
 
 <img src="<%= @foto_esmalte.url %>"/>
+<p> Comente aqui :D </p>
+<textarea name=mytextarea cols=35 rows=3>
+</textarea>
+<input type="button" name="botao-ok" value="Enviar">
 <% @foto_esmalte.comentarios.each do |comentario|%>
 	<p><%= comentario.descricao %></p>
 <%end%>	
+
