@@ -1,8 +1,8 @@
 <h1>To procurando</h1>
 
 <% @esmaltes.each do |foto_esmalte| %>
-<img src="<%= foto_esmalte.url %>"/>
-<p>Essa cor e da Colorama</p>
-<p>O nome da cor e vermelho paixao</p>
-<p>e feia</p>
+	<img src="<%= foto_esmalte.url %>"/>
+	<% foto_esmalte.comentarios.each do |comentario|%>
+		<p><%= comentario.descricao %></p>
+	<%end%>	
 <% end %>
