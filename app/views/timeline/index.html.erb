@@ -1,7 +1,7 @@
 <h1>To procurando</h1>
 
 <% @esmaltes.each do |foto_esmalte| %>
-	<a href="http://localhost:3000/timeline/<%= foto_esmalte.id %>" > 
+	<a href="/timeline/<%= foto_esmalte.id %>" > 
 	<img src="<%= foto_esmalte.url %>"> 
 	</a> 
 <% end %>
