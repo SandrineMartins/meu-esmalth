@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+FotoEsmalte.create(url:"http://www.tortugan.com.br/lojas/00020405/prod/esmalte.jpg")
