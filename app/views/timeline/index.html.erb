@@ -2,7 +2,4 @@
 
 <% @esmaltes.each do |foto_esmalte| %>
 	<img src="<%= foto_esmalte.url %>"/>
-	<% foto_esmalte.comentarios.each do |comentario|%>
-		<p><%= comentario.descricao %></p>
-	<%end%>	
 <% end %>
