@@ -1,5 +1,5 @@
 class TimelineController < ApplicationController
   def index
-  	@foto_esmalte = FotoEsmalte.first 
+  	@esmaltes = FotoEsmalte.all 
   end
 end
